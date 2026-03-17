@@ -14,6 +14,9 @@ jobs:
       - name: install dependancy
         run: npm install
 
+      - name: dependancy check
+        run: npm audit --audit-level=high
+
       - name: run lint
         run: npx eslint .
 
