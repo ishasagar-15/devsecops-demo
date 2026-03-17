@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "echo Building application..." 
     "test": "jest"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.0.3",
+    "eslint-plugin-security": "^4.0.0",
     "eslist": "^1.0.0-beta.1",
     "globals": "^17.4.0",
     "jest": "^30.3.0"
